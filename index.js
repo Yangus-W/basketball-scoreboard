@@ -40,3 +40,18 @@ function newGame() {
     scoreGuest = 0
     scoreGuestEl.textContent = scoreGuest
 }
+
+function compareScores() {
+    if (scoreHome > scoreGuest) {
+        scoreHomeEl.style.color = "yellow"
+        scoreGuestEl.style.color = "#F94F6D"
+    }
+    else if (scoreHome < scoreGuest) {
+        scoreGuestEl.style.color = "yellow"
+        scoreHomeEl.style.color = "#F94F6D"
+    }
+    else {
+        scoreGuestEl.style.color = "#F94F6D"
+        scoreHomeEl.style.color = "#F94F6D"
+    }
+}
