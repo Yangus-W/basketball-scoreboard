@@ -33,3 +33,10 @@ function addThreeGuest() {
     scoreGuest += 3
     scoreGuestEl.textContent = scoreGuest
 }
+
+function newGame() {
+    scoreHome = 0
+    scoreHomeEl.textContent = scoreHome
+    scoreGuest = 0
+    scoreGuestEl.textContent = scoreGuest
+}

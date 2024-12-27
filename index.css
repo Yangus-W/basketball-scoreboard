@@ -54,3 +54,15 @@ p {
     font-size: 18px;
     font-family: cursedTimer;
 }
+
+.newgame-btn {
+    font-family: cursedTimer;
+    width: 200px;
+    height: 60px;
+    margin-top: 60px;
+    font-size: 30px;
+    color: #F94F6D;
+    border: 3px #F94F6D solid;
+    border-radius: 5px;
+    background: none;
+}
